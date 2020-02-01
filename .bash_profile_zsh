@@ -1,0 +1,5 @@
+if [ -f /bin/zsh ]; then exec zsh ; fi
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
